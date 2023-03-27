@@ -4,11 +4,10 @@ This Weather app is built using HTML,CSS,JavaScript and React and downloads data
 
 ## Description
 
-This app gives you the current day's,3 hour,5 days and weekend weather information based on the City (which will be the use input)
+This app will provide current day's,3 hour,5 days and weekend weather information based on the City (which will be the use input)
 
-## How to use
-
-1. Enter the City Name in the search bar to know the current day's weather information
-2. Click Hourly button to know the weather information for every 3 hours
-3. Click Daily button to know the weather information for 5 days
-4. Click weekend button to know Friday,saturday and Sunday weather
+## Design
+1. Components used in the app are Today,Hourly,Daily,Weekend,Search,Header and Button
+2. Built the app using react functional components with hooks to handle state and other life cycle methods
+3. Created WeatherContext.jsx which will take care of loading the initial state, data communication and also handles how the data gets propagated to various components.
+4. Initially the application renders the weather information of New York city(which is passed to the url through useEffect())
