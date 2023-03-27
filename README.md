@@ -1,6 +1,6 @@
 # Weather App
 
-This Weather app is built using HTML,CSS,JavaScript and React
+This Weather app is built using HTML,CSS,JavaScript and React and downloads data from openweathermap using Api key
 
 ## Description
 
